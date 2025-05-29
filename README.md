@@ -1,4 +1,15 @@
 # HackVortex
+---
+**Index:**
+1. [Introduction](https://github.com/Akankshap24/HackVortex/blob/main/README.md#1-introduction)
+2. [Objectives](https://github.com/Akankshap24/HackVortex/blob/main/README.md#2-objectives)
+3. [Proposed Features](https://github.com/Akankshap24/HackVortex/blob/main/README.md#3-proposed-features)
+4. [Scientific Basis](https://github.com/Akankshap24/HackVortex/blob/main/README.md#4-scientific-basis)
+5. [Implementation Strategy](https://github.com/Akankshap24/HackVortex/blob/main/README.md#5-implementation-strategy)
+6. [Challenges & Mitigation](https://github.com/Akankshap24/HackVortex/blob/main/README.md#6-challenges--mitigation)
+7. [Expected Impact](https://github.com/Akankshap24/HackVortex/blob/main/README.md#7-expected-impact)
+8. [Conclusion](https://github.com/Akankshap24/HackVortex/blob/main/README.md#8-conclusion)
+---
 ## EmergencyCare Connect: A Life-Saving Ecosystem
 
 ### **Executive Summary:**
