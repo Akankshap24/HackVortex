@@ -112,16 +112,18 @@ This app targets India’s 600 million smartphone users (Statista, 2025), with a
 
 ## 📸 Screenshots
 1. **Sign-In Page:**
+   <br> <br>
 ![image](https://github.com/user-attachments/assets/2fce2037-e20b-4867-ae5f-17dc6e6bbdf8)
 
 The sign-in page features a holographic design with a login card and language selector. All text, including placeholders, updates dynamically based on the selected language.
-
+<br><br><br>
 2. **Blood Donation Screen:**
+<br><br>
 ![image](https://github.com/user-attachments/assets/532b6a83-1e2e-4c50-a774-b9fe4ba4edaf)
 
 The blood donation screen allows users to register as donors or request blood, with dropdowns for blood group and urgency level to ensure quick and accurate submissions.
 
-
+<br><br>
 ## 🌟 Impact Analysis
 ### Potential Reach
 1. **User Base:** India has over 600 million smartphone users (_Statista, 2025_), many of whom live in areas with limited emergency healthcare access. EmergencyCare Connect targets both urban and rural users, with a focus on inclusivity.
