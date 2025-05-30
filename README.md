@@ -71,6 +71,27 @@ This app targets India’s 600 million smartphone users (Statista, 2025), with a
 
 
 
+## 🛠️ Technology Stack
+
+
+### Frontend
+- **HTML/CSS/JavaScript:** The prototype is built using these core web technologies to create a responsive and interactive interface. `HTML structures the content`, `CSS handles styling` (e.g., holographic design, purple gradient background), and `JavaScript manages interactivity` (e.g., language switching, navigation).
+- **Bootstrap (v5.3.3):** Used for responsive design and pre-built components like the login card and buttons. This ensures the app looks good on both mobile and desktop devices.
+- **Google Fonts (Roboto):** The `Roboto font` is used for its readability and modern look, ensuring text is clear across devices.
+
+### Backend (Proposed for Full Implementation)
+- **Node.js/Express:** Chosen for its scalability and ability to handle `real-time API requests`, such as `fetching hospital bed availability` or `matching blood donors.` Express simplifies routing and middleware integration.
+- **MongoDB:** A `NoSQL database` to `store user profiles`, `hospital data`, `blood donation records`, and `volunteer information`. MongoDB’s flexibility allows for easy scaling as the app grows.
+
+### APIs and Services (Planned)
+- **Google Maps API:** Will be used for real-time traffic data, distance calculations, and ambulance routing. _For example,_ it can calculate the ETA from a user’s location (e.g., Whitefield, Bengaluru) to a hospital (e.g., Manipal Hospital).
+- **Hospital Data API:** A future integration to fetch real-time bed availability from hospitals. This could be sourced from government initiatives like Ayushman Bharat or through direct partnerships with hospitals.
+- **Geolocation Services:** To track user and volunteer locations for features like elder network and SOS activation.
+
+### Multilingual Support Implementation
+- **Custom JavaScript Function:** The `changeLanguage()` function dynamically updates all UI elements based on the selected language. It uses `data-*` attributes to store translations for each element (e.g., data-en="Login", data-hi="लॉगिन").
+- **Challenges Addressed:** The function handles complex cases like placeholders in input fields, options in dropdowns, and text with child elements (e.g., links in `New user? Sign up`). It ensures the UI remains consistent across languages without breaking the layout.
+
 
 
 
