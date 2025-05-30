@@ -50,8 +50,31 @@ This app targets India’s 600 million smartphone users (Statista, 2025), with a
 * **Technical Details:** The function handles different element types (inputs, selects, and text nodes) and preserves child elements like links (e.g., in "New user? Sign up"). It also updates the HTML lang attribute for accessibility.
 * **Example:** The login button text changes from `Login` (English) to `लॉगिन` (Hindi) or `ଲଗଇନ` (odia) based on user selection.
 * **Impact:** Makes the app usable for non-English speakers, who form a significant portion of India’s population, especially in rural areas.
-4. Blood Donation Network
-Purpose: Connects blood donors with receivers during emergencies.
-Implementation: A dedicated screen allows users to register as donors or request blood as receivers. Users select their role (donor/receiver), blood group, and urgency level (urgent/normal). The prototype includes mock forms, with plans to integrate a backend database for matching.
-Design Choice: The form is minimal to ensure quick submission, with dropdowns for blood groups (A+, A-, etc.) to reduce errors.
-Impact: Addresses urgent blood needs, a common issue in emergencies, by creating a community-driven solution.
+
+### 4. Blood Donation Network
+* **Purpose:** Connects blood donors with receivers during emergencies.
+* **Implementation:** A dedicated screen allows users to register as `donors` or `request blood as receivers`. Users select their role `donor/receiver`, blood group, and urgency level (urgent/normal). The prototype includes mock forms, with plans to integrate a backend database for matching.
+* **Design Choice:** The form is minimal to ensure quick submission, with dropdowns for blood groups (A+, A-, etc.) to reduce errors.
+* **Impact:** Addresses urgent blood needs, a common issue in emergencies, by creating a community-driven solution.
+
+### 5. Elder Network
+* **Purpose:** Provides emergency support for elderly users by connecting them with volunteers.
+* **Implementation:** The elder network screen displays mock data on `volunteers` (e.g., `24 volunteers`) and `requests` (e.g., `7 requests`). It also shows nearby volunteers with ETAs (e.g., `43m - 30km`). In the future, this will integrate with a volunteer database and geolocation services.
+* **Design Choice:** Uses a clean layout with large fonts and icons for accessibility, considering the elderly demographic.
+* **Impact:** Ensures elderly users, who are often vulnerable during emergencies, receive timely support.
+
+### 6. Disaster Mode
+* **Purpose:** Provides critical resources during natural disasters like floods or earthquakes.
+* **Implementation:** The disaster mode screen includes sections for `Emergency List`, `Updates`, `Shelters`, and `Resources`. In the prototype, these are placeholders, but they will eventually link to real-time disaster data and government resources.
+* **Design Choice:** Uses a grid layout for easy navigation, with each section clearly labeled.
+* **Impact:** Enhances community resilience by providing actionable information during crises.
+
+
+
+
+
+
+
+
+
+
